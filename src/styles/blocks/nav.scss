@@ -1,16 +1,18 @@
-@import "variables";
+@import 'variables';
 
 .nav {
   display: flex;
+  font-weight: 500;
 
   &__list {
     display: flex;
     margin: 0;
+    padding: 0;
     list-style: none;
   }
 
-  &__item:not(:last-child) {
-    margin-right: 20px;
+  &__item:not(:first-child) {
+    margin-left: 20px;
   }
 
   &__link {
