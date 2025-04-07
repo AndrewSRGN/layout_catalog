@@ -36,8 +36,7 @@
 
   &__product-code {
     font-size: 10px;
-    line-height: 13px;
-    padding-top: 1px;
+    line-height: 14px;
     color: $secondary-color;
   }
 
@@ -48,14 +47,9 @@
     margin-bottom: 24px;
   }
 
-  &__stars {
-    margin-left: 2px;
-  }
-
   &__reviews {
     font-size: 10px;
-    line-height: 15px;
-    padding-top: 1px;
+    line-height: 16px;
     margin: 0;
   }
 
@@ -74,9 +68,7 @@
     &-value {
       font-size: 16px;
       font-weight: 700;
-      line-height: 17px;
-      padding-top: 1px;
-      vertical-align: bottom;
+      line-height: 18px;
     }
   }
 
